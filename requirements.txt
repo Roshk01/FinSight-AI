@@ -4,7 +4,5 @@ xgboost
 pandas
 numpy
 matplotlib
-seaborn
-python
 streamlit
 yfinance
