@@ -6,7 +6,8 @@
     <img src="https://img.shields.io/badge/last%20commit-today-blue" alt="last commit">
   </a>
   <img src="https://img.shields.io/github/languages/count/Roshk01/FinSight-AI" alt="language count">
-  <img src="https://img.shields.io/badge/jupyter%20notebook-99.1%25-blue" alt="notebook">
+  <img src="https://img.shields.io/badge/jupyter%20notebook-98.2%25-blue" alt="notebook">
+  <img src="https://img.shields.io/badge/Python-1.8%25-blue" alt="Python">
 </p>
 
 
@@ -14,14 +15,14 @@
 
 ## 💡 Overview
 
-**FinSight-AI** is an AI-powered stock price prediction tool that forecasts the **stock's closing price on every 30-day interval** using real-time financial data. Built with XGBoost, Linear Regression and deployed via Streamlit, this tool helps users make informed investment decisions.
+**Money Mind AI** is an AI-powered stock price prediction tool that forecasts the **stock's closing price on every 30-day interval** using real-time financial data. Built with XGBoost, Linear Regression, and deployed via Streamlit, this tool helps users make informed investment decisions.
 
 ---
 
 ## 🔍 Key Features
 
 - 📊 Real-time data using `yfinance`
-- 📈 Predicts the **stock price on every 30-Day interval**
+- 📈 Predicts the **stock price on every 30-day interval**
 - ✅ Interactive UI with Streamlit
 - 📦 Clean and modular code
 - 📉 Model evaluation metrics for performance validation
@@ -36,7 +37,7 @@
 | 📉 Mean Absolute Error (MAE) | **2.27**   | **1.25**  |
 | 🎯 R² Score                  | **0.96**   | **0.99**  |
 
-> ⚠️ Note: The model predicts **only** the stock’s closing price for the 30th future day interval based on past trends — not all days individually.
+> ⚠️ Note: The model predicts **only** the stock’s closing price for the 30th future day interval based on past trends, not all days individually.
 
 ---
 
@@ -49,14 +50,15 @@
 ![XGBoost](https://img.shields.io/badge/XGBoost-EC6C00?logo=xgboost&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
 ![yfinance](https://img.shields.io/badge/yfinance-0A66C2?logo=chart&logoColor=white)
+![yfinance](https://img.shields.io/badge/Linear--Regression-632d91?logo=chart&logoColor=white)
 
 ---
 
 ## 🚀 Run Locally
 
 ```bash
-git clone https://github.com/Roshk01/FinSight-AI.git
-cd FinSight-AI
+git clone https://github.com/Roshk01/Money_mind_AI.git
+cd Money_mind_AI
 pip install -r requirements.txt
 streamlit run app.py
 ```
