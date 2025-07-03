@@ -1,8 +1,8 @@
-<h1 align="center">📈 FINSIGHT-AI</h1>
+<h1 align="center">📈 Money Mind AI</h1>
 <p align="center"><em>Empowering Smarter Investments with AI-Driven Insights</em></p>
 
 <p align="center">
-  <a href="https://github.com/Roshk01/FinSight-AI">
+  <a href="https://github.com/Roshk01/Money_mind_AI">
     <img src="https://img.shields.io/badge/last%20commit-today-blue" alt="last commit">
   </a>
   <img src="https://img.shields.io/github/languages/count/Roshk01/FinSight-AI" alt="language count">
@@ -14,14 +14,14 @@
 
 ## 💡 Overview
 
-**FinSight-AI** is an AI-powered stock price prediction tool that forecasts the **stock's closing price on the 7th day from today** using real-time financial data. Built with XGBoost and deployed via Streamlit, this tool helps users make informed investment decisions.
+**FinSight-AI** is an AI-powered stock price prediction tool that forecasts the **stock's closing price on every 30-day interval** using real-time financial data. Built with XGBoost, Linear Regression and deployed via Streamlit, this tool helps users make informed investment decisions.
 
 ---
 
 ## 🔍 Key Features
 
 - 📊 Real-time data using `yfinance`
-- 📈 Predicts the **stock price on the 7th future day**
+- 📈 Predicts the **stock price on every 30-Day interval**
 - ✅ Interactive UI with Streamlit
 - 📦 Clean and modular code
 - 📉 Model evaluation metrics for performance validation
@@ -36,7 +36,7 @@
 | 📉 Mean Absolute Error (MAE) | **2.27**   | **1.25**  |
 | 🎯 R² Score                  | **0.96**   | **0.99**  |
 
-> ⚠️ Note: The model predicts **only** the stock’s closing price for the 7th future day based on past trends — not all 7 days individually.
+> ⚠️ Note: The model predicts **only** the stock’s closing price for the 30th future day interval based on past trends — not all days individually.
 
 ---
 
